@@ -1,16 +1,15 @@
 public class Cat {
-    private Cat cat;
+    private String cat;
 
     public Cat() {}
 
-    public Cat(Cat cat) {
+    public Cat(String cat) {
         this.cat = cat;
     }
-    public Cat getCat() {
+    public String getCat() {
         return cat;
     }
-    public void setCat(Cat cat) {
+    public void setCat(String cat) {
         this.cat = cat;
     }
-
 }
