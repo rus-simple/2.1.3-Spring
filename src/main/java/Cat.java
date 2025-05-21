@@ -3,9 +3,6 @@ public class Cat {
 
     public Cat() {}
 
-    public Cat(String cat) {
-        this.cat = cat;
-    }
     public String getCat() {
         return cat;
     }
